@@ -11497,3 +11497,14 @@ header.masthead h1, header.masthead .h1 {
   border-width: 5px;
   margin-bottom: 15px;
 }
+
+@media (max-width: 992px) {
+  #navLogo {
+    height: 60px;
+  }
+}
+@media (min-width: 992px) {
+  #navLogo {
+    height: 120px;
+  }
+}
