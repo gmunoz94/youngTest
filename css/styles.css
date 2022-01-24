@@ -11483,6 +11483,14 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 
+.top-img {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
 @media (min-width: 1200px) {
   .aboutImg {
     border: solid;
@@ -11501,6 +11509,9 @@ header.masthead h1, header.masthead .h1 {
 @media (max-width: 992px) {
   #navLogo {
     height: 60px;
+  }
+  .top-img {
+    display: inline;
   }
 }
 @media (min-width: 992px) {
